@@ -1,0 +1,71 @@
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+#navbarNavDropdown{
+  direction: rtl;
+
+}
+nav{
+  z-index: 3;
+  /* position: sticky; */
+}
+.navbar-expand-lg{
+  padding: 1%;
+  /* position: sticky; */
+  direction: rtl;
+ 
+   
+
+}
+.custom-font {
+ 
+   font-family: 'Verdana'; 
+  font-size: 20px;
+  font-weight: bold;
+}
+li:hover{
+  color:white;
+  background-color: #9b0089f9;
+  transition: 500ms;
+}
+.nav-link{
+  /* text-shadow: 0px 1px 1px black;; */
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+#signUp:hover{
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  transition: 500ms;
+
+  box-shadow: 0px 1px 1px black;
+}
+.navbar-brand{
+  /* direction: inherit; */
+}
+
+body {
+  direction: rtl;
+ 
+}
+
+#dialog{
+  text-align: center; 
+}
+form{
+  width: 400px;
+}
+.root-component {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+img{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.buttonNav{
+  width: 100%;
+}

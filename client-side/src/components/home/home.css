@@ -1,0 +1,64 @@
+
+.conection{
+color: aliceblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 400%;
+font-weight: bold;
+direction: rtl;
+margin-right: 7%;
+
+}
+.aicon{
+  padding-top: 0%;
+  margin-right: 70%;
+}
+.link{
+  margin-top: -8%; 
+  width: 20%;
+}
+.parallax {
+    /* The image used */
+   
+  
+    /* Set a specific height */
+    min-height: 550px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#englishLink{
+    background-image: url("src/images/1.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    background-color: blueviolet;
+}
+  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.imgLogo{
+    position: relative;
+    top: 350px;
+}
+.title{
+    padding-top:12%;
+    text-align:left;
+    direction: ltr;
+    font-size: 70px;
+    margin-left: 20%;
+    color: rgb(0 53 92);
+}
+
+/* .img{
+    margin-left: 18%;
+} */
